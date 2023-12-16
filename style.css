@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(52,53,56);
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    color: rgba(232, 102, 236);
+  }
+
+  header p{
+   color:#fff;
+   font-size: 12px;
+   text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: rgba(232, 102, 236);
+  }
+
+.heart {
+  color: red;
+}
+
+  section {
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h2 {
+  position:relative;
+  margin-top: -20px;
+  border:#fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  }
+  
+  article {
+    color: rgba(232, 102, 236);
+    border-style: dashed;
+    border-width: 3px;
+    border-color:#fff;
+    padding: 10px;
+    width: 33.33%;
+    margin: 20px;
+  }
+
+  pre {
+    color:#fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3)0%, rgba(232, 102, 236, 0.6)100%);  
+    border-radius: 5px;
+    padding-top: 10px;
+    user-select:auto;
+
+  }
+  
+
+  @media screen and (max-width: 992px) {
+ article {
+    width: 50%;  
+  }}
+  @media screen and (max-width: 768px) {
+    article {
+        width: 100%;   
+  }}
